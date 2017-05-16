@@ -3,26 +3,264 @@
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
+  margin:O;
+  padding:0;
 }
 
 body {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
+  overflow: none;
+  background: white;
   background-size: cover;
-
   color: rgba(232,234,246 ,1);
+  margin-bottom:50px;
 }
 
-.intro {
-  width: 90vw;
+/* navigatie */
+.verticalmenu {
+    position: fixed;
+    top: 0;
+    right:0;
+    box-sizing: border-box;
+    display: block;
+    width: 200px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background: #59503F;
+    line-height: 17px;
+}
+.verticalmenu > ul {
+    list-style:none;
+    margin:0;
+    padding:10px;
+    text-align: right;
+}
+.verticalmenu > ul li {
+    position: relative;
+    display: block;
+}
+.verticalmenu > ul > li > a {
+    display: block;
+    padding: 15px 5px;
+    font-weight:400;
+    text-transform: uppercase;
+    color: #F3DBD5;
+    text-decoration: none;
+}
+.verticalmenu a:hover {
+    color: #D8C1BA;
+}
+.verticalmenu a.active {
+    color: #BBA59E;
+}
 
-  padding: 1rem;
+/* titel */
+
+.titel {
+  position:relative;
+  padding:40px;
+  background:#59503F;
+  color:#DBEDE8;
+}
+.ondertitel {
+  position:relative;
+  padding:40px;
+  background:#59503F;
+  color:#DBEDE8;
+}
+
+/* tekst */
+
+.tekst {
+  width: 60%;
+  padding: 2rem;
   margin-top: 1rem;
+  background:#DBEDE8;
+  color:#59503F;
+}
+.tekst achtergrond contact {
+  position:relative;
+  top:300px;
+  left:210px;
+  right:180px;
+  z-index: 550;
+  height: 150px;
+  padding: 2rem;
+  background: #DBEDE8;
+  color: #59503F;
+  text-align:center;
+}
+.tekstvakrechtsonder {
+  width: 100%;
+  height: 200px;
+  padding: 40px;
+  background:#DBEDE8;
+  color:#59503F;
+}
+.tekstvaklinksonder {
+  width: 100%;
+  height: 200px;
+  padding: 40px;
+  background:#DBEDE8;
+  color:#59503F;
+}
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+/* footer */
+
+footer {
+  position: fixed;
+  display: block;
+  bottom:0;
+  width:100%;
+  height: 7em;
+  color: #F3DBD5;
+  background-color: #374256;
+  padding: 1rem;
+  font-size: 16px;
+  line-height: 12px;
+  z-index:10;
+  margin-top: 50px;
+}
+.e-mail {
+  color: #F3DBD5;
+}
+.e-mail a.hover {
+  color:#D8C1BA;
+}
+.e-mail a.active {
+  color: #BBA59E;
+}
+i {
+    padding-right:4px;
+}
+
+.footerimg {
+    width:50px;
+    height:50px;
+}
+.logo {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  width:500px;
+  position: relative;
+}
+
+/* kaart */
+
+
+/*home*/
+.header {
+  top:0;
+}
+.patroon {
+    position: relative;
+    width:100%; 
+    height:100%;
+    top: 0;
+    left: 0;
+    z-index:0;
+}
+.naamlogo {
+    position: absolute;
+    width:40%; 
+    top: 40px;
+    left: 40px;
+    z-index:2;
+}
+.naamlogoz{
+    position: relative;
+    width:40%; 
+    top: 40px;
+    left: 40px;
+    z-index:20;
+    padding-bottom:40px;
+}
+.logo {
+    position: absolute;
+    width:35%; 
+    height:35%;
+    top: 200px;
+    right: 20px;
+    z-index:2;
+}
+.logo_txt {
+  position:absolute;
+  top:350px;
+  left:40px;
+  right:320px;
+  z-index: 4;
+  height: 150px;
+  padding: 2rem;
+  background: #DBEDE8;
+  color: #59503F;
+  text-align:center;
+}
+
+/* over ons */
+
+.fototeam{
+    opacity: 1;
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: 50% 50% no-repeat;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.midden {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.cfototeam:hover .fototeam{
+  opacity: 0.5;
+}
+
+.cfototeam:hover .midden{
+  opacity: 1;
+}
+
+.naam {
+  background-color:#DBEDE8;
+  color:#59503F;
+  padding:15px;
+}
+.teamoverons {
+  background:#DBEDE8;
+  color:#59503F;
+  width:180px;
+  height:180px;
+  padding:15px;
+}
+.bruin {
+  color: #59503F;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* contact */
+.contactblok{
+  position: relative;
+  padding-left:20px;
+  background-color:#DBEDE8;
+  color:#59503F;
+  border: solid 2px #59503F;
+}
+
+/*portfolio*/
+.portfolio{
+  width:66.6666%;
+  height:auto;
+  border: 5px solid #DBEDE8;
+  margin: 40px;
+}
+.portfolio-item{
+  width:100%;
+  height:auto;
 }
