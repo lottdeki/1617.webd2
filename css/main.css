@@ -17,6 +17,12 @@ body {
   margin-bottom:50px;
 }
 
+body.home {
+  background: url('../assets/images/patrooncaleido.svg') no-repeat fixed;
+  background-size: cover;
+  margin-top: 200px;
+}
+
 /* navigatie */
 .verticalmenu {
     position: fixed;
@@ -110,6 +116,7 @@ body {
 /* footer */
 
 footer {
+  clear:both;
   position: fixed;
   display: block;
   bottom:0;
@@ -186,14 +193,14 @@ i {
     z-index:2;
 }
 .logo_txt {
-  position:absolute;
-  top:350px;
-  left:40px;
-  right:320px;
-  z-index: 4;
-  height: 150px;
   padding: 2rem;
   background: #DBEDE8;
+  color: #59503F;
+  text-align:center;
+}
+.quote {
+  padding: 2rem;
+  background: #F1C3CD;
   color: #59503F;
   text-align:center;
 }
