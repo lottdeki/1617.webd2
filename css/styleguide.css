@@ -1,48 +1,85 @@
 /* navigatie */
 
 .verticalmenu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    box-sizing: border-box;
-    display: block;
-    width: 200px;
-    height: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    background: #59503F;
-    line-height: 17px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  display: block;
+  width: 200px;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background: #59503F;
+  line-height: 14px;
 }
 
 .verticalmenu>ul {
-    list-style: none;
-    margin: 0;
-    padding: 10px;
-    text-align: right;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  text-align: right;
 }
 
 .verticalmenu>ul li {
-    position: relative;
-    display: block;
+  position: relative;
+  display: block;
 }
 
 .verticalmenu>ul>li>a {
-    display: block;
-    padding: 15px 5px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #F3DBD5;
-    text-decoration: none;
+  display: block;
+  padding: 15px 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #F3DBD5;
+  text-decoration: none;
 }
 
 .verticalmenu a:hover {
-    color: #D8C1BA;
+  color: #D8C1BA;
 }
 
 .verticalmenu a.active {
-    color: #BBA59E;
+  color: #BBA59E;
 }
 
+
+/* footer */
+
+footer {
+  clear: both;
+  position: fixed;
+  display: block;
+  bottom: 0;
+  width: 100%;
+  height: 105px;
+  color: #F3DBD5;
+  background-color: #374256;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 12px;
+  margin-top: 50px;
+}
+
+.disclaimer {
+  color: #374256;
+}
+
+i {
+  padding-right: 4px;
+}
+
+.link {
+  color: #F3DBD5;
+}
+
+.link a.hover {
+  color: #D8C1BA;
+}
+
+.link a.active {
+  color: #BBA59E;
+}
 
 /* Kleuren */
 
@@ -105,8 +142,8 @@ p {
     font-family: 'Playfair Display', serif;
     line-height: 1.3;
 }
-/* titel */
 
+/* titel */
 .titel {
   position: relative;
   padding: 30px;
@@ -121,7 +158,6 @@ p {
 }
 
 /* tekst */
-
 .tekst {
   width: 100%;
   padding: 30px;
@@ -131,7 +167,6 @@ p {
 }
 
 /* Hyperlinks */
-
 a,
 a:visited {
     color: #f4dbd5;
@@ -145,7 +180,6 @@ a:hover {
 
 
 /* Iconen */
-
 i {
     color: #f4dbd5;
 }
@@ -156,7 +190,6 @@ i:hover {
 
 
 /* Knoppen */
-
 .button {
     outline: none;
     background-color: #59503F;
@@ -181,7 +214,6 @@ i:hover {
 
 
 /* Patronen */
-
 .patterns__pattern {
     height: 120px;
     width: 120px;
@@ -242,41 +274,4 @@ textarea.opmerking {
 /* patroon */
 .patroon {
     width:50%;
-}
-
-
-/* footer */
-
-footer {
-    position: fixed;
-    display: block;
-    bottom: 0;
-    width: 100%;
-    height: 7em;
-    color: #F3DBD5;
-    background-color: #374256;
-    padding: 1rem;
-    font-size: 16px;
-    line-height: 12px;
-}
-
-.e-mail {
-    color: #F3DBD5;
-}
-
-.e-mail a.hover {
-    color: #D8C1BA;
-}
-
-.e-mail a.active {
-    color: #BBA59E;
-}
-
-i {
-    padding-right: 4px;
-}
-
-.footerimg {
-    width: 50px;
-    height: 50px;
 }
