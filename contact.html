@@ -9,12 +9,14 @@
   <!-- Mobile Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- Most important SEO tag -->
-  <title>Contact</title>
+  <title>Contact - Studiocaleido</title>
   <!-- Other SEO friendly tags -->
-  <meta name="description" content="design agency studiocaleido">
-  <meta name="keywords" content="HTML5, JavaScript, jQuery, CSS3">
+  <meta name="description" content="Studiocaleido is een grafisch ontwerpbureau uit Melle.">
+  <meta name="keywords" content="grafisch ontwerpbureau, Studiocaleido, Melle">
   <meta name="author" content="Arteveldehogeschool - Bachelor in de grafische en digitale media | CMO">
   <meta name="copyright" content="Copyright 2017 Arteveldehogeschool. All Rights Reserved.">
+  <!-- MOBILE VIEWPORT -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- OpenGraph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content=">HTML5 | Webdesign II | GDM">
@@ -93,23 +95,61 @@
       </div>
       <div class="sf-grid__row">
         <div class="sf-grid__column-8 sf-grid__offset-2 contactblok">
-          <h2>TELEFOON</h2>
-          <p>0495617501</p>
+          <h2 class="contacttekst">OPENINGSUREN</h2>
+          <table>
+            <tr>
+             <td>MA</td>
+             <td>09:00 tot 18:00</td>
+            </tr>
+            <tr>
+             <td>DI</td>
+             <td>09:00 tot 18:00</td>
+            </tr>
+            <tr>
+             <td>WO</td>
+             <td>09:00 tot 18:00</td>
+            </tr>
+            <tr>
+             <td>DO</td>
+             <td>09:00 tot 18:00</td>
+            </tr>
+            <tr>
+             <td>VR</td>
+             <td>09:00 tot 18:00</td>
+            </tr>
+            <tr>
+             <td>ZA</td>
+             <td>GESLOTEN</td>
+            </tr>
+            <tr>
+             <td>ZA</td>
+             <td>GESLOTEN</td>
+            </tr>
+          </table>
         </div>
       </div>
       <br>
       <div class="sf-grid__row">
         <div class="sf-grid__column-8 sf-grid__offset-2 contactblok">
-          <h2>E-MAIL</h2>
+          <h2 class="contacttekst">TELEFOON</h2>
+          <p class="contacttekst">0495617501</p>
+        </div>
+      </div>
+      <br>
+      <div class="sf-grid__row">
+        <div class="sf-grid__column-8 sf-grid__offset-2 contactblok">
+          <h2 class="contacttekst">E-MAIL</h2>
           <a class="e-mailcontact" href="mailto:info@studiocaleido.be">info@studiocaleido.be</a>
         </div>
       </div>
       <br>
       <div class="sf-grid__row">
         <div class="sf-grid__column-8 sf-grid__offset-2 contactblok">
-          <h2>FORMULIER</h2>
+          <h2 class="contacttekst">FORMULIER</h2>
           <form>
+            <label id="icon" for="name"><i class="fa fa-user"></i></label>
             <input type="text" name="naam" placeholder="naam"><br>
+            <label id="icon" for="name"><i class="fa fa-envelope "></i></label>                      
             <input type="text" name="e-mail" placeholder="e-mail"><br>
             <textarea class="opmerking" name="opmerking" maxlength="500"></textarea>
             <div><button class="button">Verstuur</button></div>
@@ -119,8 +159,8 @@
       <br>
       <div class="sf-grid__row">
         <div class="sf-grid__column-8 sf-grid__offset-2 contactblok">
-          <h2>ADRES</h2>
-          <p>Merelbekestraat 117<br>9090 Melle</p>
+          <h2 class="contacttekst">ADRES</h2>
+          <p class="contacttekst">Merelbekestraat 117<br>9090 Melle</p>
         </div>
       </div>
       <br>
@@ -134,13 +174,13 @@
     </div>
   </div>
 
-  <!-- footer -->
+  <!--footer-->
   <div class="sf-grid__wrapper">
     <footer>
-      <div class="sf-grid__column-4"><img class="footerimg" src="assets/images/logostudiocaleido.svg"></div>
+      <div class="sf-grid__column-4"><a class="link" href="disclaimer.html"><i class="fa fa-copyright" aria-hidden="true"></i>2017 - ArteveldeHS - schoolwerkstuk</a></div>
       <div class="sf-grid__column-4"></div>
       <div class="sf-grid__column-4">
-        <i class="fa fa-envelope-o" aria-hidden="true"></i><a class="e-mail" href="mailto:info@studiocaleido.be">info@studiocaleido.be</a><br>
+        <i class="fa fa-envelope-o" aria-hidden="true"></i><a class="link" href="mailto:info@studiocaleido.be">info@studiocaleido.be</a><br>
         <p><i class="fa fa-phone" aria-hidden="true"></i>0495617501</p>
         <p><i class="fa fa-map-marker" aria-hidden="true"></i>Merelbekestraat 117, Melle</p>
       </div>
@@ -148,5 +188,4 @@
   </div>
 
 </body>
-
 </html>

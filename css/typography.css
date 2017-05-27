@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   font-style: normal;
-  line-height: 1.42;
+  line-height: 25px;
 }
 
 h1{
@@ -11,12 +11,12 @@ h1{
   font-size: 30px;
   font-weight: 500;
   font-style: normal;
-  line-height: 1.42;
+  line-height: 42px;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-style: normal;
-  line-height: 1.42;
+  line-height: 34px;
 }

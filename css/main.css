@@ -132,20 +132,28 @@ footer {
 }
 .e-mailcontact {
   color: #59503F;
+  padding-left: 40px;
 }
 i {
     padding-right:4px;
-}
-
-.footerimg {
-    width:50px;
-    height:50px;
 }
 .logo {
   margin-top: 3rem;
   margin-left: 3rem;
   width:500px;
   position: relative;
+}
+.disclaimer {
+  color:#374256;
+}
+.link {
+  color: #F3DBD5;
+}
+.link a.hover {
+  color:#D8C1BA;
+}
+.link a.active {
+  color: #BBA59E;
 }
 
 /*home*/
@@ -179,7 +187,7 @@ i {
     position: absolute;
     width:35%; 
     height:35%;
-    top: 200px;
+    top: 170px;
     right: 20px;
     z-index:2;
 }
@@ -248,7 +256,13 @@ i {
   padding:20px;
   background-color:#DBEDE8;
   color:#59503F;
-  border: solid 2px #59503F;
+  /*border: solid 2px #59503F;*/
+}
+.contacttekst {
+  padding-left: 40px;
+}
+table {
+  padding-left: 40px;
 }
 
 form {
@@ -268,7 +282,15 @@ input {
   color:#DBEDE8;
   border: none;
 }
-
+#icon {
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  background-color: #59503F;
+  padding: 8px;
+  border: 0px solid;
+  color: #DBEDE8;
+}
 textarea.opmerking {
   resize: none;
   margin: 5px 0px 5px 0px;
